@@ -1,0 +1,119 @@
+nav {
+  background-color: steelblue;
+  display: flex;
+  align-items: center;
+  padding: 0.8em 2em;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav > .search {
+  flex: 0.6;
+  background-color: sienna;
+  border-radius: 3px;
+  overflow: hidden;
+}
+nav > .search > form {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+nav > .search > form > input {
+  padding: 0.7em 0.8em;
+  flex: 0.95;
+  border: none;
+  background-color: var(--input);
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+nav > .search > form > button {
+  flex: 0.05;
+  border: none;
+  background-color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4em;
+}
+
+nav > .search > form > button > .MuiSvgIcon-root {
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+nav > .account > button {
+  padding: 0.8em 1.2em;
+}
+
+nav > .toggle-logo {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: flex-start;
+  flex: 0.2;
+  justify-content: space-between;
+}
+
+nav > .toggle-logo > .menu-toggle > .MuiSvgIcon-root {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.toggle-logo > .logo {
+  display: flex;
+  align-items: center;
+}
+.toggle-logo > .logo > h3 {
+  padding-left: 0.5em;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.toggle-logo > .logo > .play {
+  width: 1.8rem;
+  height: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0.5em; */
+  background-color: var(--logo);
+  border-radius: 3px;
+  margin-top: 0.2em;
+}
+
+.toggle-logo > .logo > .play > .MuiSvgIcon-root {
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+
+nav > .account {
+  background-color: deeppink;
+  display: flex;
+  align-items: center;
+}
+
+nav > .account > .MuiSvgIcon-root {
+  margin-right: 0.7em;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+nav > .account > button {
+  display: flex;
+  align-items: center;
+  color: var(--link);
+  border: 1px solid var(--link);
+  background-color: transparent;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+}
+
+nav > .account > button > p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding-left: 0.2em;
+}

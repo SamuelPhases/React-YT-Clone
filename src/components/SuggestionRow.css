@@ -1,0 +1,59 @@
+.suggestionRow::-webkit-scrollbar {
+  /* width: 0;
+  display: none;
+  background-color: gold; */
+}
+
+.suggestionRow {
+  background-color: peachpuff;
+  margin-bottom: 1em;
+  cursor: pointer;
+  height: 100px;
+}
+
+.col-flex {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.col-flex > .vidBox {
+  /* height: ; */
+  flex: 0.38;
+  background-color: mediumseagreen;
+}
+
+.col-flex > .snip-details {
+  flex: 0.6;
+  background-color: olive;
+}
+
+.snip-details > h4 {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.snip-details > p {
+  margin: 0.3em 0em;
+}
+
+.snip-details {
+  color: var(--text);
+}
+
+.snip-details p {
+  font-size: 0.9rem;
+}
+
+.snip-details > .views-dur {
+  display: flex;
+  align-items: center;
+}
+
+.snip-details > .views-dur > p:nth-child(1) {
+  margin-right: 0.5em;
+}
+.snip-details > .views-dur > p:nth-child(2) {
+  margin-left: 0.5em;
+}

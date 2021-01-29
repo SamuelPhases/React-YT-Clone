@@ -1,0 +1,43 @@
+.comment {
+  background-color: plum;
+  margin: 0.8em 0em;
+  padding: 1em 0em;
+  display: flex;
+}
+
+.comment > .dp {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.comment > .details > h5 {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0.3em 0em;
+}
+
+.comment > .details > h5 > span {
+  font-weight: 400;
+  color: var(--text);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
+
+.comment > .details > h5 > span:hover {
+  color: var(--primary);
+}
+.comment > .details > p:hover {
+  cursor: auto;
+  color: var(--input);
+}
+.comment > .details > p {
+  cursor: auto;
+  color: var(--input);
+  font-size: 0.9rem;
+  transition: none;
+}

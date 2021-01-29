@@ -1,0 +1,15 @@
+.playingVideo {
+  overflow: hidden;
+  /* height: 100px; */
+}
+
+.playingVideo-split {
+  height: 600px;
+  overflow: auto;
+  display: flex;
+  margin-top: 3.5em;
+  background: rebeccapurple;
+  /* padding-bottom: 10em; */
+  /* padding: 2em; */
+  /* padding-bottom: 20em; */
+}
